@@ -1,0 +1,38 @@
+.search-btn {
+  background-color: #fe424d;
+  color: #fff;
+  padding: 0 1rem 0 1rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+}
+.search-btn:hover {
+  background-color: #fe424d;
+  color: #fff;
+}
+.search-btn i {
+  display: inline;
+  margin-right: 0.5rem;
+}
+.search-inp {
+  border-radius: 25px;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  font-size: 0.9rem;
+}
+
+#close-btn-nav {
+  display: none;
+}
+@media (max-width: 767px) {
+  .navbar-nav .nav-link {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+
+  #close-btn-nav {
+    display: block;
+  }
+  .offcanvas.offcanvas-start {
+    left: 1rem;
+  }
+}

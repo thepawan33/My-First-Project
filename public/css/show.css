@@ -1,0 +1,39 @@
+.show-img {
+  height: 30vh;
+}
+.btns {
+  display: flex;
+}
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#mapContainer {
+  height: 400px;
+  width: auto;
+}
+#mapContainer:hover {
+  cursor: grab;
+}
+.H_ib_content {
+  min-width: 15em;
+  margin: 5px 28px 5px 5px;
+  color: chocolate;
+  cursor: default;
+}
+
+@media (max-width: 700px) {
+  #showPage-all {
+    transform: translate(-100px);
+  }
+  .card-img-top {
+    width: 400px;
+  }
+  #mapContainer {
+    width: 400px;
+  }
+  .edit-btn {
+    width: fit-content;
+  }
+}
