@@ -80,7 +80,7 @@ app.use("/listings/:id/reviews", reviewRoute);
 app.use("/", userRoute);
 
 app.use("*", (req, res, next) => {
-  next(new ExpressError(404, "Page Not Found!"));
+  res.redirect("/listings");
 });
 
 app.use((err, req, res, next) => {
